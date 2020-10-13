@@ -1,23 +1,24 @@
-.box{
+.box {
 
     justify-content: center;
     text-align: center;
-    
-    h1{
+
+    h1 {
         padding: 25px;
         background-color: #FFFFFFDD;
         color: #755C1B;
 
     }
 
-    p{
-        margin: 0 auto 25px ;
+    p {
+        margin: 0 auto 25px;
         width: 300px;
         padding: 15px;
         color: #515A47;
         background-color: #FFFFFF80;
         border-radius: 10px;
-        &:hover{
+
+        &:hover {
             cursor: pointer;
             background-color: #FFFFFFEE
         }
@@ -31,6 +32,5 @@
     flex-wrap: wrap;
     justify-content: space-between
 }
-a {
-    
-}
+
+a {}

@@ -13,7 +13,7 @@ const Card = ({ routeName, items, history,match }) => (
             <div className="img-box">
               <img src={imageUrl}></img>
             </div>
-            <h3 onClick={() => history.push(`${match.url}/${routeName}/${id}`)}> {name} </h3>
+            <h3 onClick={() => history.push(`${match.url}/${routeName}/${id}`)}>{name}</h3>
           </div>
         </div>
       ))}
